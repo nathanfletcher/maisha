@@ -1,0 +1,273 @@
+/*
+    Document   : site
+    Created on : Aug 27, 2013, 10:03:30 PM
+    Author     : Akosua
+    Description: Maisha
+    Purpose of the stylesheet follows.
+*/
+
+/*root {*/
+    /*display: block;*/
+/*}*/
+
+body
+{
+    /*position: absolute;*/
+    width: 950px;
+    margin: auto;
+    background: #191919;
+    font-size: .80em;
+    font-family: "Helvetica Neue", "Lucida Grande", "Segoe UI", Arial, Helvetica, Verdana, sans-serif;
+    color: #C0C0C0;
+    line-height: 15px;
+    /*    background-image: url('blackboard_backgrounds.jpeg');
+        background-color:#ffffcc;*/
+    /*    padding-top: 1em;
+        padding-bottom: 1em;*/
+    /*    padding-left: 10em;
+        padding-right: 10em;*/
+}
+
+div.bodyArea{
+    background: black;
+    width: 950px;
+    height: 800px;
+}
+
+table.searchButton{
+    background-position-y: 3px;
+    background-position-x: 0px;
+    background-image: url(images/Search_inactive.png);
+    background-size:158px;
+    background-repeat: no-repeat;
+    background-color:transparent;
+}
+
+table.searchButton:hover{
+    background-position-y: 3px;
+    background-position-x: 0px;
+    background-image: url(images/Search_active.png);
+    background-size:158px;
+    background-repeat: no-repeat;
+    background-color:transparent;
+}
+
+/*search area*/
+input.search:focus {
+    text-indent: 4px;
+    /*background-position-x: -1px;*/
+    background-size:133px;
+    outline: 2px inset #971A2E;
+}
+
+input.search {
+    text-indent: 3px;
+    outline: 0;
+    background-color:transparent;
+    border: 0px solid;
+    width: 133px;
+    height: 16px;
+    color: #CCC;
+}
+button.searchMagnify{
+    width: 20px;
+    height: 22px;
+    background-color: transparent;
+    border: 0px solid;
+    outline: 0;
+}
+
+td.searchTD{
+    background-color: transparent;
+}
+
+/*art and book images*/
+td.artUnsel:hover{
+    background: url(images/Art_Selected.png) no-repeat;
+    background-size: 155px 170px;
+}
+td.booksUnsel:hover{
+    background: url(images/Books_Selected.png) no-repeat;
+    background-size: 155px 170px;
+}
+
+a.theBuzz{
+    color: #971A2E;
+    text-decoration: none;
+}
+.catalog, a.signIn, a.signUp, a.signInSlash{
+    color: #272727;
+    text-decoration: none;
+}
+a.theBuzz:hover, a.catalog:hover, a.signIn:hover, a.signUp:hover, a.signInSlash{
+    color: #CCC;
+}
+a.theBuzz:active, a.catalog:active, a.signIn:active, a.signUp:active{
+    color: #272727;
+}
+
+td.theBuzzBorder, td.catalogBorder{
+    background: url(images/Tab_inactive.png) no-repeat 101% 50%;
+    background-size: 6px 32px;
+}
+td.theBuzzBorder:hover, td.catalogBorder:hover{
+    background: url(images/Tab_active.png) no-repeat 101% 50%;
+    background-size: 6px 32px;
+}
+td.theBuzzBorder:active, td.catalogBorder:active{
+    /*    background: url(images/Tab_active.png) no-repeat 101% 50%;
+        background-size: 6px 32px;*/
+    color: #971A2E;
+}
+
+
+/*dropdown sign-in*/
+div.nav ul ul{
+    display: none;
+    background: transparent;
+}
+
+div.nav ul li:hover > ul{
+    display: block;
+}
+
+div.nav ul{
+    margin: 0;
+    padding: 0 10px;
+    border-radius: 10px;
+    list-style: none;
+    position: relative;
+    display: inline-block;
+    box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+}
+
+div.nav ul li{float:left;
+}
+
+div.nav ul li a{
+    padding: 5px 5px 5px 5px;
+    display: block;
+    float:left;
+    text-decoration: none;
+}
+
+div.nav ul li:hover a{
+    color: #fff;
+}
+
+div.nav ul li:hover > ul {
+    padding: 0px 0px 50px 15px; float: left;
+    /*margin: 0px 0px 50px 15px;*/
+    background: url("images/Control_Panel_Select.png") no-repeat -1px 55px ;
+    background-size: 200px 220px;
+}
+div.nav ul li:hover > ul li {float: none; display: block; background: transparent; float: left;}
+div.nav ul li:hover > ul li a {color: #666; min-width: 150px; float: left; }
+div.nav ul li:hover > ul li a:hover {color: #fff; float: left;}
+
+div.nav ul li{position:relative;  }
+div.nav ul li ul {position: absolute; top:24px; right:-10px}
+
+/*sign in*/
+div.nav ul li ul.signInDropD {position: absolute; top:24px; right:-6em}
+div.nav ul li:hover > ul.signInDropD {
+    padding: 20px 0px 50px 15px;
+    float: left;
+    /*margin: 0px 0px 50px 15px;*/
+    background: url("images/Control_Panel_Select.png") no-repeat -1px 29px ;
+    background-size: 200px 220px;
+}
+/*sign in*/
+
+/*sign up*/
+table.usernameSignUp, table.passwordSignUpArea{
+    /*background-position-y: 3px;*/
+    /*background-position-x: 0px;*/
+
+    background-image: url(images/TextArea_Unselect.png);
+    background-size:145px;
+    background-repeat: no-repeat;
+    /*background-color:transparent;*/
+}
+table.go{
+    padding: 0 0 0 3px; margin: 0px 10px 0px 3px;
+    background: url("images/Button_Unselect.png") no-repeat;
+    background-size: 3em 2em;
+
+}
+table.go:hover{
+    padding: 0 0 0 3px; margin: 0px 10px 0px 3px;
+    background: url("images/Button_Select.png") no-repeat;
+    background-size: 3em 2em;
+}
+table.usernameSignUp:hover, table.passwordSignUpArea:hover{
+    background-image: url(images/TextArea_Select.png);
+}
+
+td.username, td.password, td.password2{
+    width: 146px;
+    height: 1.8em;
+    text-align: center;
+}
+
+td.facebook:hover {background: url("images/Facebook_Active.png") no-repeat center; background-size: 4em 4em;}
+td.instagram:hover {background: url("images/Instagram_Select.png") no-repeat center; background-size: 4em 4em;}
+td.twitter:hover {background: url("images/Twitter_Active.png") no-repeat center; background-size: 4em 4em;}
+
+/*footer
+-------------------------------------------*/
+div.footer {
+    margin-top: 1em;
+    padding-top: 1em;
+    border-top: thin dotted;
+}
+
+/* HEADINGS
+----------------------------------------------------------*/
+
+/*h1, h2, h3, h4, h5, h6
+{
+    font-size: 1.5em;
+    color: #666666;
+    font-variant: small-caps;
+    text-transform: none;
+    font-weight: 200;
+    margin-bottom: 0px;
+}*/
+
+h1.maisha{
+    font-size: 3.0em;
+    padding:0px 0 0px 0;
+    margin-bottom: 0px;
+}
+h4.maisha
+{
+    font-size: 1.0em;
+    font-weight: 300;
+}
+/*
+h2
+{
+    font-size: 2.0em;
+    font-weight: 600;
+}
+
+h3
+{
+    font-size: 1.5em;
+}
+
+h4
+{
+    font-size: 1.2em;
+}
+
+h5, h6
+{
+    font-size: 1em;
+}
+*/
+
+.top {
+
+}
