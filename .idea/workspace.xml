@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a100dd29-aa4b-47fd-9627-1bd5643c65e5" name="Default" comment="ub&#10;">
+    <list default="true" id="a100dd29-aa4b-47fd-9627-1bd5643c65e5" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.css" afterPath="$PROJECT_DIR$/index.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.php" afterPath="$PROJECT_DIR$/main.php" />
@@ -42,7 +42,7 @@
       <file leaf-file-name="main.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="5" selection-start="12" selection-end="12" vertical-scroll-proportion="0.070103094" vertical-offset="0" max-vertical-offset="485">
+            <state line="2" column="20" selection-start="27" selection-end="27" vertical-scroll-proportion="0.070103094" vertical-offset="0" max-vertical-offset="485">
               <folding />
             </state>
           </provider>
@@ -217,7 +217,11 @@
       <created>1391810391173</created>
       <updated>1391810391173</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="main included index.php">
+      <created>1391810809626</created>
+      <updated>1391810809626</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -263,7 +267,8 @@
     <MESSAGE value="First submit&#10;Second submit" />
     <MESSAGE value="Trial 3" />
     <MESSAGE value="Trial 3&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Trial 3&#10;" />
+    <MESSAGE value="main included index.php" />
+    <option name="LAST_COMMIT_MESSAGE" value="main included index.php" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -390,7 +395,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="5" selection-start="12" selection-end="12" vertical-scroll-proportion="0.070103094" vertical-offset="0" max-vertical-offset="485">
+        <state line="2" column="20" selection-start="27" selection-end="27" vertical-scroll-proportion="0.070103094" vertical-offset="0" max-vertical-offset="485">
           <folding />
         </state>
       </provider>
