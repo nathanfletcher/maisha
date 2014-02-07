@@ -5,7 +5,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.yaml" afterPath="$PROJECT_DIR$/app.yaml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.css" afterPath="$PROJECT_DIR$/index.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.php" afterPath="$PROJECT_DIR$/main.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theBuzz.css" afterPath="$PROJECT_DIR$/theBuzz.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theBuzz.php" afterPath="$PROJECT_DIR$/theBuzz.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -31,19 +30,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="app.yaml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="app.yaml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="9" selection-start="90" selection-end="90" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+            <state line="9" column="0" selection-start="141" selection-end="141" vertical-scroll-proportion="0.2994129" vertical-offset="0" max-vertical-offset="511">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="232" column="0" selection-start="13222" selection-end="13222" vertical-scroll-proportion="0.7838983" vertical-offset="3574" max-vertical-offset="4046">
+            <state line="232" column="0" selection-start="13222" selection-end="13222" vertical-scroll-proportion="-14.230769" vertical-offset="3574" max-vertical-offset="4046">
               <folding>
                 <element signature="e#588#637#0" expanded="true" />
                 <element signature="e#714#780#0" expanded="true" />
@@ -212,7 +211,20 @@
     </key>
   </component>
   <component name="RunManager" selected="App Engine for PHP.maisha">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
     <configuration default="true" type="AppEnginePhpConfigurationType" factoryName="App Engine for PHP">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <configuration default="false" name="maisha" type="AppEnginePhpConfigurationType" factoryName="App Engine for PHP" phpCgiPath="C:\xampp\php" port="1234">
@@ -280,7 +292,11 @@
       <created>1391811266484</created>
       <updated>1391811266484</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="main included ('index.php') - learnt about the include()&#10;">
+      <created>1391813793627</created>
+      <updated>1391813793627</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -688,16 +704,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="9" selection-start="90" selection-end="90" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="232" column="0" selection-start="13222" selection-end="13222" vertical-scroll-proportion="0.7838983" vertical-offset="3574" max-vertical-offset="4046">
+        <state line="232" column="0" selection-start="13222" selection-end="13222" vertical-scroll-proportion="-14.230769" vertical-offset="3574" max-vertical-offset="4046">
           <folding>
             <element signature="e#588#637#0" expanded="true" />
             <element signature="e#714#780#0" expanded="true" />
@@ -738,6 +747,13 @@
             <element signature="e#12888#12927#0" expanded="true" />
             <element signature="e#12992#13029#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="141" selection-end="141" vertical-scroll-proportion="0.2994129" vertical-offset="0" max-vertical-offset="511">
+          <folding />
         </state>
       </provider>
     </entry>

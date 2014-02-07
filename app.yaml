@@ -5,11 +5,12 @@ api_version: 1
 threadsafe: true
 
 handlers:
-- url: .*
-  script: main.php
-
   - url: /stylesheets
     static_dir: stylesheets
 
   - url: /images
     static_dir: images
+
+  - url: .*
+  script: main.php
+
