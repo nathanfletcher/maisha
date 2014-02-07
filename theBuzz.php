@@ -7,7 +7,7 @@ and open the template in the editor.
 <head>
     <title>Maisha</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <link rel="stylesheet" href="stylesheets/theBuzz.css">
+    <link rel="stylesheet" href="/stylesheets/theBuzz.css">
     <link rel="shortcut icon" href="images/logo.ico">
 </head>
 <body>
