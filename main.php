@@ -230,7 +230,4 @@ and open the template in the editor.
     Powered by Kingston Coker
 </div>
 
-</body>
-</html>
-
-        
+<?php

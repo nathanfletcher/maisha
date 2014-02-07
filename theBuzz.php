@@ -42,7 +42,7 @@ and open the template in the editor.
                             </form>
                         </td>
                         <td>
-                            <button class="searchMagnify" style=" " onclick="location.href='index.php'">
+                            <button class="searchMagnify" style=" " onclick="location.href='main.php'">
 
                             </button>
                         </td>
