@@ -37,7 +37,7 @@ div.bodyArea{
 table.searchButton{
     background-position-y: 3px;
     background-position-x: 0px;
-    background-image: url(images/Search_inactive.png);
+    background-image: url(../images/Search_inactive.png);
     background-size:158px;
     background-repeat: no-repeat;
     background-color:transparent;
@@ -46,7 +46,7 @@ table.searchButton{
 table.searchButton:hover{
     background-position-y: 3px;
     background-position-x: 0px;
-    background-image: url(images/Search_active.png);
+    background-image: url(../images/Search_active.png);
     background-size:158px;
     background-repeat: no-repeat;
     background-color:transparent;
@@ -83,11 +83,11 @@ td.searchTD{
 
 /*art and book images*/
 td.artUnsel:hover{
-    background: url(images/Art_Selected.png) no-repeat;
+    background: url(../images/Art_Selected.png) no-repeat;
     background-size: 155px 170px;
 }
 td.booksUnsel:hover{
-    background: url(images/Books_Selected.png) no-repeat;
+    background: url(../images/Books_Selected.png) no-repeat;
     background-size: 155px 170px;
 }
 
@@ -107,11 +107,11 @@ a.theBuzz:active, a.catalog:active, a.signIn:active, a.signUp:active{
 }
 
 td.theBuzzBorder, td.catalogBorder{
-    background: url(images/Tab_inactive.png) no-repeat 101% 50%;
+    background: url(../images/Tab_inactive.png) no-repeat 101% 50%;
     background-size: 6px 32px;
 }
 td.theBuzzBorder:hover, td.catalogBorder:hover{
-    background: url(images/Tab_active.png) no-repeat 101% 50%;
+    background: url(../images/Tab_active.png) no-repeat 101% 50%;
     background-size: 6px 32px;
 }
 td.theBuzzBorder:active, td.catalogBorder:active{
@@ -158,7 +158,7 @@ div.nav ul li:hover a{
 div.nav ul li:hover > ul {
     padding: 0px 0px 50px 15px; float: left;
     /*margin: 0px 0px 50px 15px;*/
-    background: url("images/Control_Panel_Select.png") no-repeat -1px 55px ;
+    background: url("../images/Control_Panel_Select.png") no-repeat -1px 55px ;
     background-size: 200px 220px;
 }
 div.nav ul li:hover > ul li {float: none; display: block; background: transparent; float: left;}
@@ -174,7 +174,7 @@ div.nav ul li:hover > ul.signInDropD {
     padding: 20px 0px 50px 15px;
     float: left;
     /*margin: 0px 0px 50px 15px;*/
-    background: url("images/Control_Panel_Select.png") no-repeat -1px 29px ;
+    background: url("../images/Control_Panel_Select.png") no-repeat -1px 29px ;
     background-size: 200px 220px;
 }
 /*sign in*/
@@ -184,24 +184,24 @@ table.usernameSignUp, table.passwordSignUpArea{
     /*background-position-y: 3px;*/
     /*background-position-x: 0px;*/
 
-    background-image: url(images/TextArea_Unselect.png);
+    background-image: url(../images/TextArea_Unselect.png);
     background-size:145px;
     background-repeat: no-repeat;
     /*background-color:transparent;*/
 }
 table.go{
     padding: 0 0 0 3px; margin: 0px 10px 0px 3px;
-    background: url("images/Button_Unselect.png") no-repeat;
+    background: url("../images/Button_Unselect.png") no-repeat;
     background-size: 3em 2em;
 
 }
 table.go:hover{
     padding: 0 0 0 3px; margin: 0px 10px 0px 3px;
-    background: url("images/Button_Select.png") no-repeat;
+    background: url("../images/Button_Select.png") no-repeat;
     background-size: 3em 2em;
 }
 table.usernameSignUp:hover, table.passwordSignUpArea:hover{
-    background-image: url(images/TextArea_Select.png);
+    background-image: url(../images/TextArea_Select.png);
 }
 
 td.username, td.password, td.password2{
@@ -210,9 +210,9 @@ td.username, td.password, td.password2{
     text-align: center;
 }
 
-td.facebook:hover {background: url("images/Facebook_Active.png") no-repeat center; background-size: 4em 4em;}
-td.instagram:hover {background: url("images/Instagram_Select.png") no-repeat center; background-size: 4em 4em;}
-td.twitter:hover {background: url("images/Twitter_Active.png") no-repeat center; background-size: 4em 4em;}
+td.facebook:hover {background: url("../images/Facebook_Active.png") no-repeat center; background-size: 4em 4em;}
+td.instagram:hover {background: url("../images/Instagram_Select.png") no-repeat center; background-size: 4em 4em;}
+td.twitter:hover {background: url("../images/Twitter_Active.png") no-repeat center; background-size: 4em 4em;}
 
 /*footer
 -------------------------------------------*/
