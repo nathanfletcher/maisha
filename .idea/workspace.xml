@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a100dd29-aa4b-47fd-9627-1bd5643c65e5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stylesheets/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.yaml" afterPath="$PROJECT_DIR$/app.yaml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.php" afterPath="$PROJECT_DIR$/main.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theBuzz.php" afterPath="$PROJECT_DIR$/theBuzz.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -32,7 +31,7 @@
       <file leaf-file-name="app.yaml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="0" selection-start="216" selection-end="216" vertical-scroll-proportion="0.57383966" vertical-offset="0" max-vertical-offset="474">
+            <state line="14" column="16" selection-start="197" selection-end="197" vertical-scroll-proportion="0.5021097" vertical-offset="0" max-vertical-offset="474">
               <folding />
             </state>
           </provider>
@@ -313,7 +312,11 @@
       <created>1391815309655</created>
       <updated>1391815309655</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="trying to get google engine to link to stylesheets&#10;">
+      <created>1391815882039</created>
+      <updated>1391815882039</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -777,7 +780,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="216" selection-end="216" vertical-scroll-proportion="0.57383966" vertical-offset="0" max-vertical-offset="474">
+        <state line="14" column="16" selection-start="197" selection-end="197" vertical-scroll-proportion="0.5021097" vertical-offset="0" max-vertical-offset="474">
           <folding />
         </state>
       </provider>
