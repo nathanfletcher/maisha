@@ -19,7 +19,7 @@ and open the template in the editor.
 <body>
 <div class="bodyArea" >
 <div class="top" >
-    <img src="images/Logo_Large.png"  alt="" style="float: left; width: 175px; height: 87.5px; "  >
+    <img src="images/Logo_Large.png"  alt="" style="float: left; width: 175px; height: 87px; "  >
     <table class="topCriteria" align="center" border='' cellspacing ="0" style="background-color: black; padding: 0 7px 0 0 ; float: right" >
         <tbody>
         <tr>
