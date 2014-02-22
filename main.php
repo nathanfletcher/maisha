@@ -7,7 +7,7 @@ and open the template in the editor.
 <head>
     <title><?php echo "Ashesi"?></title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <link rel="stylesheet" href="/stylesheets/index.css">
+    <link rel="stylesheet" href="stylesheets/index.css">
     <link rel="shortcut icon" href="images/logo.ico">
     <script>
         function displayDate()
@@ -229,5 +229,3 @@ and open the template in the editor.
     Made 14 Aug 2013<br>
     Powered by Kingston Coker
 </div>
-
-<?php
